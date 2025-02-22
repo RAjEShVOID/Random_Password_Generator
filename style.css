@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    background-color: #002339;
+    color: #fff;
+}
+
+.container{
+    margin: 12%;
+    width: 100%;
+    max-width: 700px;
+}
+
+.container h1{
+   margin-bottom: 10px;
+   font-size:  45px;
+   font-weight: 700; 
+}
+h1 span{
+    margin-top: 10px;
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 6px;
+}
+
+.input{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    color: #333;
+    border: 0;
+    outline: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 6px;
+}
+
+.input input{
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+}
+.input i{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background-color: #019f55;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 26px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+ button i{
+    width: 50px;
+    margin-right: 5px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #password {
+        font-size: 16px;
+    }
+}
